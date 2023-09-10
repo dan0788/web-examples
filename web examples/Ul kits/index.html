@@ -1,0 +1,5256 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot Ui Kit Flat Resposive Website Template | Home :: w3layouts</title>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fidele Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<!--moving-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+				</script>
+<!--script-->
+
+	 <script src="js/responsiveslides.min.js"></script>
+	  <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			         auto: true,
+					 nav: true,
+					 speed: 500,
+					 namespace: "callbacks",
+			      });
+			    });
+			  </script>
+			  <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 1
+			      $("#slider2").responsiveSlides({
+			         auto: true,
+					 nav: true,
+					 speed: 500,
+					 namespace: "callbacks",
+			      });
+			    });
+			  </script>
+			  <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 1
+				      $("#slider3").responsiveSlides({
+				         auto: true,
+				        pager: true,
+				        speed: 300,
+				        namespace: "callbacks",
+				      });
+				    });
+				  </script>
+				   <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      $("#slider4").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        speed: 300,
+				        namespace: "callbacks",
+				      });
+				    });
+				  </script>
+				  <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      $("#slider5").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        speed: 300,
+				        namespace: "callbacks",
+				      });
+				    });
+				  </script>
+<!--pop-up-box-->  
+		<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});																
+						});
+				</script>	
+<!--pop-up-box-->
+ <!----video -------->	
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Finding Nemo Teaser",
+				m4v: "http://www.jplayer.org/video/m4v/Finding_Nemo_Teaser.m4v",
+				poster: "http://www.jplayer.org/video/poster/Finding_Nemo_Teaser_640x352.png"
+			});
+		},
+		swfPath: "../../dist/jplayer",
+		supplied: "m4v",
+		size: {
+			width: "100%",
+			height: "450px",
+			cssClass: "jp-video-360p"
+		},
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		remainingDuration: true,
+		toggleDuration: true
+	});
+});
+//]]>
+</script>
+
+<!--progress-->
+<link rel="stylesheet" type="text/css" href="css/fd-slider.css">
+<script type="text/javascript" src="js/fd-slider.js"></script>
+<!--//progress-->
+<!--font-Awesome-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--//font-Awesome-->
+<link rel="stylesheet" type="text/css" href="css/calendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom_1.css" />
+		<script type="text/javascript" src="js/jquery.calendario.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var cal = $( '#calendar' ).calendario( {
+						onDayClick : function( $el, $contentEl, dateProperties ) {
+
+							for( var key in dateProperties ) {
+								console.log( key + ' = ' + dateProperties[ key ] );
+							}
+
+						},
+						caldata : codropsEvents
+					} ),
+					$month = $( '#custom-month' ).html( cal.getMonthName() ),
+					$year = $( '#custom-year' ).html( cal.getYear() );
+
+				$( '#custom-next' ).on( 'click', function() {
+					cal.gotoNextMonth( updateMonthYear );
+				} );
+				$( '#custom-prev' ).on( 'click', function() {
+					cal.gotoPreviousMonth( updateMonthYear );
+				} );
+				$( '#custom-current' ).on( 'click', function() {
+					cal.gotoNow( updateMonthYear );
+				} );
+
+				function updateMonthYear() {				
+					$month.html( cal.getMonthName() );
+					$year.html( cal.getYear() );
+				}
+
+				
+			
+			});
+		</script>
+<!--Calender -->
+  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+  <script src="js/underscore-min.js"></script>
+  <script src= "js/moment-2.2.1.js"></script>
+  <script src="js/clndr.js"></script>
+  <script src="js/site.js"></script>
+  <!--End Calender -->
+<!---->
+<script>$(document).ready(function(c) {
+							$('.cross-white').on('click', function(c){
+								$('.full-nav-black').fadeOut('slow', function(c){
+									$('.full-nav-black').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			  		 <script>$(document).ready(function(c) {
+							$('.close-one').on('click', function(c){
+								$('.chart-one').fadeOut('slow', function(c){
+									$('.chart-one').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			  		 <script>$(document).ready(function(c) {
+							$('.close-two').on('click', function(c){
+								$('.chart-top2').fadeOut('slow', function(c){
+									$('.chart-top2').remove();
+								});
+								});	  
+							});
+			  		 </script>
+</head>
+<body> 
+<div class="container">
+	<!--head-->
+	<h1 class="heading">Spot Ui kit</h1>
+	<!--buttons-->
+	<div class="buttons">
+		<h3>Buttons</h3>
+		<div class="button-top">
+			<div class="button-1">
+				<button type="button" class=" btn-l">Button</button>
+				<button type="button" class=" btn-l btn-2 ">Button</button>
+				<button type="button" class=" btn-l btn-3 ">Button</button>
+			</div>
+			<div class="button-1">
+				<button type="button" class=" btn-l btn-4">Button</button>
+				<button type="button" class=" btn-l btn-5 ">Button</button>
+				<button type="button" class=" btn-l btn-6 ">Button</button>
+			</div>
+			<div class="button-1">
+				<button type="button" class=" btn-l btn-7">Button</button>
+				<button type="button" class=" btn-l btn-8 ">Button</button>
+				<button type="button" class=" btn-l btn-9 ">Button</button>
+			</div>
+			<div class="button-1">
+				<button type="button" class=" btn-l btn-10">Button</button>
+				<button type="button" class=" btn-l btn-11 ">Button</button>
+				<button type="button" class=" btn-l btn-12 ">Button</button>
+			</div>
+			<div class="button-1">
+				<button type="button" class=" btn-l btn-13">Button</button>
+				<button type="button" class=" btn-l btn-14 ">Button</button>
+				<button type="button" class=" btn-l btn-15 ">Button</button>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//buttons-->
+	<!--Toggle-Buttons-->
+	<div class="toggle">
+		<h3>Toggle <span> Buttons</span></h3>
+		<!---->
+		<div class="toggle-top">
+			<div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-2 tog-3">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2 tog-4">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-2">									
+				  	<div class="switch tog-2 tog-5">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2 tog-6">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-2">									
+				  	<div class="switch tog-2 tog-6">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		     <div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2 tog-7">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-2">									
+				  	<div class="switch tog-2 tog-7">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2 tog-8">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-2 tog-3 tog-8">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-1">
+				<div class="tog-1">									
+				  	<div class="switch tog-2 tog-6 tog-9">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-2">									
+				  	<div class="switch tog-2 tog-6 tog-9">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-1 toggle-4">
+				<div class="tog-top-1">									
+				  <span class="col_checkbox">
+						<input id="3" class="css-checkbox1" type="checkbox">
+						<label for="3" name="demo_lbl_1" class="css-label1"> </label>
+				</span>	
+			   </div>
+			  <div class="tog-top-2">									
+				  <span class="col_checkbox">
+						<input id="4" class="css-checkbox2" type="checkbox">
+						<label for="4" name="demo_lbl_2" class="css-label2"> </label>
+				</span>	
+			   </div>
+		   </div>
+		    <div class="toggle-1 toggle-4">
+				<div class="tog-top-1">									
+				  <span class="col_checkbox">
+						<input id="5" class="css-checkbox3" type="checkbox">
+						<label for="5" name="demo_lbl_3" class="css-label3"> </label>
+				</span>	
+			   </div>
+			  <div class="tog-top-2">									
+				  <span class="col_checkbox">
+						<input id="6" class="css-checkbox4" type="checkbox">
+						<label for="6" name="demo_lbl_4" class="css-label4"> </label>
+				</span>	
+			   </div>
+		   </div>
+		    <div class="toggle-1 toggle-4">
+				<div class="tog-top-3">									
+				  <span class="col_checkbox">
+						<input id="7" class="css-checkbox5" type="checkbox">
+						<label for="7" name="demo_lbl_5" class="css-label5"> </label>
+				</span>	
+			   </div>
+			  <div class="tog-top-4">									
+				  <span class="col_checkbox">
+						<input id="8" class="css-checkbox6" type="checkbox">
+						<label for="8" name="demo_lbl_6" class="css-label6"> </label>
+				</span>	
+			   </div>
+		   </div>
+		   	<div class="clearfix"> </div>
+		</div>
+		<!---->
+		<div class="toggle-top">
+			<div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 ">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-2">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-2">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		   <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-3">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-3">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-4">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-4">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-5">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-6">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-7">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-8">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-9">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-10">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    <div class="toggle-2">
+				<div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-11">
+						<input type="checkbox" checked="">
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+			   <div class="tog-1">									
+				  	<div class="switch tog-mid-1 tog-mid-12">
+						<input type="checkbox" >
+						<label><i></i></label>
+			      	</div>	
+			   </div>
+		   </div>
+		    
+		   	<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//Toggle-Buttons-->
+	<!--radio-button-->
+	<div class="radio-head">
+		<h3>Radio  <span>Buttons</span></h3>
+		<div class="radio-top">
+			<div class="radio-top1">
+				<div class="radio-bottom">
+					<span>
+					  <input type="radio" id="radio1" name="radio" />
+					  <label for="radio1"><i></i></label>
+					</span>
+					
+					<span>
+					 <input type="radio" id="radio2" name="radio" />
+					 <label for="radio2"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio3" name="radio" checked=""/>
+					 <label for="radio3"><i></i></label>
+					</span>
+
+				</div>
+				<div class="radio-bottom radio-bottom1">
+					<span>
+					  <input type="radio" id="radio4" name="radio1" />
+					  <label for="radio4"><i></i></label>
+					</span>	
+					<span>
+					 <input type="radio" id="radio5" name="radio1" />
+					 <label for="radio5"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio6" name="radio1" checked=""/>
+					 <label for="radio6"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom2">
+					<span>
+					  <input type="radio" id="radio7" name="radio2" />
+					  <label for="radio7"><i></i></label>
+					</span>	
+					<span>
+					 <input type="radio" id="radio8" name="radio2" />
+					 <label for="radio8"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio9" name="radio2" checked=""/>
+					 <label for="radio9"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom3">
+					<span>
+					 <input type="radio" id="radio10" name="radio3" />
+					 <label for="radio10"><i></i></label>
+					</span>
+					<span>
+					  <input type="radio" id="radio11" name="radio3" />
+					  <label for="radio11"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio12" name="radio3" checked=""/>
+					 <label for="radio12"><i></i></label>
+					</span>
+					
+				</div>
+				<div class="radio-bottom radio-bottom4">
+					<span>
+					 <input type="radio" id="radio13" name="radio4" />
+					 <label for="radio13"><i></i></label>
+					</span>
+					<span>
+					  <input type="radio" id="radio14" name="radio4" />
+					  <label for="radio14"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio15" name="radio4" checked=""/>
+					 <label for="radio15"><i></i></label>
+					</span>
+					
+				</div>
+					<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="radio-top1">
+				<div class="radio-bottom radio-bottom5">
+					<span >
+					  <input type="radio" id="radio16" name="radio5" />
+					  <label for="radio16"><i></i></label>
+					</span>
+					<span class="mid-radio">
+					 <input type="radio" id="radio17" name="radio5" />
+					 <label for="radio17"><i></i></label>
+					</span>
+					<span class="mid-radio last-radio">
+					 <input type="radio" id="radio18" name="radio5" checked=""/>
+					 <label for="radio18"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom6">
+					<span >
+					  <input type="radio" id="radio19" name="radio6" />
+					  <label for="radio19"><i></i></label>
+					</span>	
+					<span class="mid-radio">
+					 <input type="radio" id="radio20" name="radio6" />
+					 <label for="radio20"><i></i></label>
+					</span>
+					<span  class="mid-radio last-radio">
+					 <input type="radio" id="radio21" name="radio6" checked=""/>
+					 <label for="radio21"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom7">
+					<span >
+					  <input type="radio" id="radio22" name="radio7" />
+					  <label for="radio22"><i></i></label>
+					</span>	
+					<span class="mid-radio">
+					 <input type="radio" id="radio23" name="radio7" />
+					 <label for="radio23"><i></i></label>
+					</span>
+					<span  class="mid-radio last-radio">
+					 <input type="radio" id="radio24" name="radio7" checked=""/>
+					 <label for="radio24"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom8">
+					
+					<span >
+					 <input type="radio" id="radio25" name="radio8" />
+					 <label for="radio25"><i></i></label>
+					</span>
+					<span class="mid-radio">
+					  <input type="radio" id="radio26" name="radio8" />
+					  <label for="radio26"><i></i></label>
+					</span>	
+					<span  class="mid-radio last-radio">
+					 <input type="radio" id="radio27" name="radio8" checked=""/>
+					 <label for="radio27"><i></i></label>
+					</span>
+					
+				</div>
+				<div class="radio-bottom radio-bottom9">
+					
+					<span >
+					 <input type="radio" id="radio28" name="radio9" />
+					 <label for="radio28"><i></i></label>
+					</span>
+					
+					<span class="mid-radio">
+					  <input type="radio" id="radio29" name="radio9" />
+					  <label for="radio29"><i></i></label>
+					</span>	
+					<span  class="mid-radio last-radio">
+					 <input type="radio" id="radio30" name="radio9" checked=""/>
+					 <label for="radio30"><i></i></label>
+					</span>
+				</div>
+					<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="radio-top1">
+				<div class="radio-bottom radio-bottom10">
+					<span class="first-radio">
+					  <input type="radio" id="radio31" name="radio10" />
+					  <label for="radio31"><i></i></label>
+					</span>
+					
+					<span>
+					 <input type="radio" id="radio32" name="radio10" />
+					 <label for="radio32"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio33" name="radio10" checked=""/>
+					 <label for="radio33"><i></i></label>
+					</span>
+
+				</div>
+				<div class="radio-bottom radio-bottom1 radio-bottom11">
+					<span class="first-radio">
+					  <input type="radio" id="radio34" name="radio11" />
+					  <label for="radio34"><i></i></label>
+					</span>	
+					<span >
+					 <input type="radio" id="radio35" name="radio11" />
+					 <label for="radio35"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio36" name="radio11" checked=""/>
+					 <label for="radio36"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom2 radio-bottom12">
+					<span class="first-radio">
+					  <input type="radio" id="radio37" name="radio12" />
+					  <label for="radio37"><i></i></label>
+					</span>	
+					<span>
+					 <input type="radio" id="radio38" name="radio12" />
+					 <label for="radio38"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio39" name="radio12" checked=""/>
+					 <label for="radio39"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom3 radio-bottom13">
+					
+					<span class="first-radio">
+					 <input type="radio" id="radio40" name="radio13" />
+					 <label for="radio40"><i></i></label>
+					</span>
+					<span>
+					  <input type="radio" id="radio41" name="radio13" />
+					  <label for="radio41"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio42" name="radio13" checked=""/>
+					 <label for="radio42"><i></i></label>
+					</span>
+					
+				</div>
+				<div class="radio-bottom radio-bottom4 radio-bottom14">
+					
+					<span class="first-radio">
+					 <input type="radio" id="radio43" name="radio14" />
+					 <label for="radio43"><i></i></label>
+					</span>
+					
+					<span>
+					  <input type="radio" id="radio44" name="radio14" />
+					  <label for="radio44"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio45" name="radio14" checked=""/>
+					 <label for="radio45"><i></i></label>
+					</span>
+				</div>
+					<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="radio-top1">
+				<div class="radio-bottom radio-bottom15">
+					<span class="first-radio">
+					  <input type="radio" id="radio46" name="radio15" />
+					  <label for="radio46"><i></i></label>
+					</span>
+					
+					<span>
+					 <input type="radio" id="radio47" name="radio15" />
+					 <label for="radio47"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio48" name="radio15" checked=""/>
+					 <label for="radio48"><i></i></label>
+					</span>
+
+				</div>
+				<div class="radio-bottom radio-bottom16">
+					<span class="first-radio">
+					  <input type="radio" id="radio49" name="radio16" />
+					  <label for="radio49"><i></i></label>
+					</span>	
+					<span>
+					 <input type="radio" id="radio50" name="radio16" />
+					 <label for="radio50"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio51" name="radio16" checked=""/>
+					 <label for="radio51"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom17">
+					<span class="first-radio">
+					  <input type="radio" id="radio52" name="radio17" />
+					  <label for="radio52"><i></i></label>
+					</span>	
+					<span>
+					 <input type="radio" id="radio53" name="radio17" />
+					 <label for="radio53"><i></i></label>
+					</span>
+					<span class="last-radio">
+					 <input type="radio" id="radio54" name="radio17" checked=""/>
+					 <label for="radio54"><i></i></label>
+					</span>
+				</div>
+				<div class="radio-bottom radio-bottom18">
+					
+					<span class="first-radio">
+					 <input type="radio" id="radio55" name="radio18" />
+					 <label for="radio55"><i></i></label>
+					</span>
+					<span>
+					  <input type="radio" id="radio56" name="radio18" />
+					  <label for="radio56"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio57" name="radio18" checked=""/>
+					 <label for="radio57"><i></i></label>
+					</span>
+					
+				</div>
+				<div class="radio-bottom radio-bottom19">	
+					<span class="first-radio">
+					 <input type="radio" id="radio58" name="radio19" />
+					 <label for="radio58"><i></i></label>
+					</span>
+					
+					<span>
+					  <input type="radio" id="radio59" name="radio19" />
+					  <label for="radio59"><i></i></label>
+					</span>	
+					<span class="last-radio">
+					 <input type="radio" id="radio60" name="radio19" checked=""/>
+					 <label for="radio60"><i></i></label>
+					</span>
+				</div>
+					<div class="clearfix"> </div>
+			</div>
+			
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//radio-button-->
+	<!--checkbox-->
+	<div class="check-head">
+		<h3>Check  <span>Boxes</span></h3>
+		<div class="check-top">
+			<div class="check-top1">
+				<div class="check-bottom">
+					<span>
+						<input type="checkbox"  id="brand" value="">
+						<label for="brand"><i></i></label>
+					</span>
+					<span>
+						<input type="checkbox"  id="brand1" value="" checked="">
+						<label for="brand1"><i></i></label>
+					</span>
+					<span class="last-check">
+						<input type="checkbox"  id="brand2" value="" checked="">
+						<label for="brand2"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-1">
+						<input type="checkbox"  id="brand3" value="">
+						<label for="brand3"><i></i></label>
+					</span>
+					<span class="first-1">
+						<input type="checkbox"  id="brand4" value="" checked="">
+						<label for="brand4"><i></i></label>
+					</span>
+					<span class="first-1 last-check">
+						<input type="checkbox"  id="brand5" value="" checked="">
+						<label for="brand5"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-2">
+						<input type="checkbox"  id="brand6" value="">
+						<label for="brand6"><i></i></label>
+					</span>
+					<span class="first-2">
+						<input type="checkbox"  id="brand7" value="" checked="">
+						<label for="brand7"><i></i></label>
+					</span>
+					<span class="first-2 last-check">
+						<input type="checkbox"  id="brand8" value="" checked="">
+						<label for="brand8"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-3">
+						<input type="checkbox"  id="brand9" value="">
+						<label for="brand9"><i></i></label>
+					</span>
+					<span class="first-3">
+						<input type="checkbox"  id="brand10" value="" checked="">
+						<label for="brand10"><i></i></label>
+					</span>
+					<span class="first-3 last-check">
+						<input type="checkbox"  id="brand11" value="" checked="">
+						<label for="brand11"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-4">
+						<input type="checkbox"  id="brand12" value="">
+						<label for="brand12"><i></i></label>
+					</span>
+					<span class="first-4">
+						<input type="checkbox"  id="brand13" value="" checked="">
+						<label for="brand13"><i></i></label>
+					</span>
+					<span class="first-4 last-check">
+						<input type="checkbox"  id="brand14" value="" checked="">
+						<label for="brand14"><i></i></label>
+					</span>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="check-top1">
+				<div class="check-bottom">
+					<span class="first-5">
+						<input type="checkbox"  id="brand15" value="">
+						<label for="brand15"><i></i></label>
+					</span>
+					<span class="first-5">
+						<input type="checkbox"  id="brand16" value="" checked="">
+						<label for="brand16"><i></i></label>
+					</span>
+					<span class="first-5 last-check">
+						<input type="checkbox"  id="brand17" value="" checked="">
+						<label for="brand17"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-1 first-5">
+						<input type="checkbox"  id="brand18" value="">
+						<label for="brand18"><i></i></label>
+					</span>
+					<span class="first-1 first-5">
+						<input type="checkbox"  id="brand19" value="" checked="">
+						<label for="brand19"><i></i></label>
+					</span>
+					<span class="first-1 first-5 last-check">
+						<input type="checkbox"  id="brand20" value="" checked="">
+						<label for="brand20"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-2 first-5">
+						<input type="checkbox"  id="brand21" value="">
+						<label for="brand21"><i></i></label>
+					</span>
+					<span class="first-2 first-5">
+						<input type="checkbox"  id="brand22" value="" checked="">
+						<label for="brand22"><i></i></label>
+					</span>
+					<span class="first-2 first-5 last-check">
+						<input type="checkbox"  id="brand23" value="" checked="">
+						<label for="brand23"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-3 first-5">
+						<input type="checkbox"  id="brand24" value="">
+						<label for="brand24"><i></i></label>
+					</span>
+					<span class="first-3 first-5">
+						<input type="checkbox"  id="brand25" value="" checked="">
+						<label for="brand25"><i></i></label>
+					</span>
+					<span class="first-3 first-5 last-check">
+						<input type="checkbox"  id="brand26" value="" checked="">
+						<label for="brand26"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class="first-4 first-5">
+						<input type="checkbox"  id="brand27" value="">
+						<label for="brand27"><i></i></label>
+					</span>
+					<span class="first-4 first-5">
+						<input type="checkbox"  id="brand28" value="" checked="">
+						<label for="brand28"><i></i></label>
+					</span>
+					<span class="first-4 first-5 last-check">
+						<input type="checkbox"  id="brand29" value="" checked="">
+						<label for="brand29"><i></i></label>
+					</span>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="check-top1">
+				<div class="check-bottom">
+					<span class="first-6">
+						<input type="checkbox"  id="brand30" value="">
+						<label for="brand30"><i></i></label>
+					</span>
+					<span class="first-6">
+						<input type="checkbox"  id="brand31" value="" checked="">
+						<label for="brand31"><i></i></label>
+					</span>
+					<span class="first-6 last-check">
+						<input type="checkbox"  id="brand32" value="" checked="">
+						<label for="brand32"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class=" first-7">
+						<input type="checkbox"  id="brand33" value="">
+						<label for="brand33"><i></i></label>
+					</span>
+					<span class="first-7">
+						<input type="checkbox"  id="brand34" value="" checked="">
+						<label for="brand34"><i></i></label>
+					</span>
+					<span class=" first-7 last-check">
+						<input type="checkbox"  id="brand35" value="" checked="">
+						<label for="brand35"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class=" first-8">
+						<input type="checkbox"  id="brand36" value="">
+						<label for="brand36"><i></i></label>
+					</span>
+					<span class=" first-8">
+						<input type="checkbox"  id="brand37" value="" checked="">
+						<label for="brand37"><i></i></label>
+					</span>
+					<span class=" first-8 last-check">
+						<input type="checkbox"  id="brand38" value="" checked="">
+						<label for="brand38"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class=" first-9">
+						<input type="checkbox"  id="brand39" value="">
+						<label for="brand39"><i></i></label>
+					</span>
+					<span class=" first-9">
+						<input type="checkbox"  id="brand40" value="" checked="">
+						<label for="brand40"><i></i></label>
+					</span>
+					<span class=" first-9 last-check">
+						<input type="checkbox"  id="brand41" value="" checked="">
+						<label for="brand41"><i></i></label>
+					</span>
+				</div>
+				<div class="check-bottom">
+					<span class=" first-10">
+						<input type="checkbox"  id="brand42" value="">
+						<label for="brand42"><i></i></label>
+					</span>
+					<span class=" first-10">
+						<input type="checkbox"  id="brand43" value="" checked="">
+						<label for="brand43"><i></i></label>
+					</span>
+					<span class=" first-10 last-check">
+						<input type="checkbox"  id="brand44" value="" checked="">
+						<label for="brand44"><i></i></label>
+					</span>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//checkbox-->
+	<!--drop-down-->
+		<div class="drop-down">
+			<h3>Dropdown  <span>  List</span> </h3>
+			<div class="drop-top">
+				<div class="drop-top1">
+					<div class="drop-menu">
+						<span class="menu"><label> Choose..</label><img src="images/dr.png">
+							<div class="clearfix"> </div> </span>
+						<script>
+							$( "span.menu" ).click(function() {
+							  $( "ul.top-menu" ).slideToggle( "500", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="top-menu">
+						<li><a href="#">Css Author</a></li>                                             
+						<li><a href="#">PSD Library</a></li>
+						<li><a href="#">Icons Library</a></li>  
+						<li><a href="#">UI/UX Pro</a></li>
+					</ul>
+				</div>
+				<!---->
+				<div class=" drop-menu1">
+						<span class=" menu1"><label> Choose..</label><img src="images/dr1.png">
+							<div class="clearfix"> </div> </span>
+						<script>
+							$( "span.menu1" ).click(function() {
+							  $( "ul.top-menu1" ).slideToggle( "500", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class=" top-menu1">
+						<li><a href="#">Css Author</a></li>                                             
+						<li><a href="#">PSD Library</a></li>
+						<li><a href="#">Icons Library</a></li>  
+						<li><a href="#">UI/UX Pro</a></li>
+					</ul>
+				</div>
+				<!---->
+				<div class=" drop-menu2">
+						<span class=" menu2"><label> Choose..</label><img src="images/dr.png">
+							<div class="clearfix"> </div> </span>
+						<script>
+							$( "span.menu2" ).click(function() {
+							  $( "ul.top-menu2" ).slideToggle( "500", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class=" top-menu2">
+						<li><a href="#">Css Author</a></li>                                             
+						<li><a href="#">PSD Library</a></li>
+						<li><a href="#">Icons Library</a></li>  
+						<li><a href="#">UI/UX Pro</a></li>
+					</ul>
+				</div>
+				<!---->
+				<div class=" drop-menu3">
+						<span class=" menu3"><label> Choose..</label><img src="images/dr2.png">
+							<div class="clearfix"> </div> </span>
+						<script>
+							$( "span.menu3" ).click(function() {
+							  $( "ul.top-menu3" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class=" top-menu3">
+						<li><a href="#">Css Author</a></li>                                             
+						<li><a href="#">PSD Library</a></li>
+						<li><a href="#">Icons Library</a></li>  
+						<li><a href="#">UI/UX Pro</a></li>
+					</ul>
+				</div>
+				</div>
+				<!---->
+				<div class="drop-top1">
+					<!---->
+					<div class="drop-menu4">
+						<span class="menu4"><label> Choose..</label><img src="images/dr1.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu4" ).click(function() {
+							   $( "ul.top-menu4" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu4">
+						<li><a href="#"><i></i>Css Author</a></li>                                             
+						<li><a href="#"><i></i>PSD Library</a></li>
+						<li><a href="#"><i></i>Icons Library</a></li>  
+						<li><a href="#"><i></i>UI/UX Pro</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				<!---->
+				<div class="drop-menu5">
+						<span class="menu5"><label> Choose..</label><img src="images/dr3.png" alt="">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu5" ).click(function() {
+							   $( "ul.top-menu5" ).slideToggle( "slow", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu5">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav" value="" checked="">
+							<label for="nav"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav1" value="" >
+							<label for="nav1"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav2" value="" >
+							<label for="nav2"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav3" value="" >
+							<label for="nav3"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				<!---->
+				<div class=" drop-menu6">
+						<span class=" menu6"><label> Choose..</label><img src="images/dr3.png" alt="">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu6" ).click(function() {
+							   $( "ul.top-menu6" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class=" top-menu6">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav4" value="" checked="">
+							<label for="nav4"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav5" value="" >
+							<label for="nav5"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav6" value="" >
+							<label for="nav6"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav7" value="" >
+							<label for="nav7"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				</div>
+				<!---->
+				<div class="drop-top1">
+					<!---->
+					<div class="drop-menu7">
+						<span class="menu7"><label> Choose..</label><img src="images/dr1.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu7" ).click(function() {
+							   $( "ul.top-menu7" ).slideToggle( "slow", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu7">
+						<li><a href="#"><i></i>Css Author</a></li>                                             
+						<li><a href="#"><i></i>PSD Library</a></li>
+						<li><a href="#"><i></i>Icons Library</a></li>  
+						<li><a href="#"><i></i>UI/UX Pro</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				<!---->
+				<div class="drop-menu8">
+						<span class="menu8"><label> Choose..</label><img src="images/dr3.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu8" ).click(function() {
+							   $( "ul.top-menu8" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu8">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav8" value="" checked="">
+							<label for="nav8"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav-8" value="" >
+							<label for="nav-8"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav9" value="" >
+							<label for="nav9"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav10" value="" >
+							<label for="nav10"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				<!---->
+				<div class=" drop-menu9">
+						<span class=" menu9"><label> Choose..</label><img src="images/dr3.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu9" ).click(function() {
+							   $( "ul.top-menu9" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class=" top-menu9">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav11" value="" checked="">
+							<label for="nav11"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav12" value="" >
+							<label for="nav12"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav13" value="" >
+							<label for="nav13"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav14" value="" >
+							<label for="nav14"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				</div>
+				<!---->
+				<div class="drop-top1">
+					<!---->
+					<div class="drop-menu10">
+						<span class="menu10"><label> Choose..</label><img src="images/dr1.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu10" ).click(function() {
+							   $( "ul.top-menu10" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu10">
+						<li><a href="#"><i></i>Css Author</a></li>                                             
+						<li><a href="#"><i></i>PSD Library</a></li>
+						<li><a href="#"><i></i>Icons Library</a></li>  
+						<li><a href="#"><i></i>UI/UX Pro</a></li>
+										</ul>
+					
+				</div>
+				
+				<!---->
+				<div class="drop-menu11">
+						<span class="menu11"><label> Choose..</label><img src="images/dr3.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu11" ).click(function() {
+							   $( "ul.top-menu11" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class="top-menu11">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav15" value="" checked="">
+							<label for="nav15"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav16" value="" >
+							<label for="nav16"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav17" value="" >
+							<label for="nav17"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav18" value="" >
+							<label for="nav18"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				<!---->
+				<div class=" drop-menu12">
+						<span class=" menu12"><label> Choose..</label><img src="images/dr3.png">
+							<div class="clearfix"> </div> </span>
+						
+						<script>
+							   $( "span.menu12" ).click(function() {
+							   $( "ul.top-menu12" ).slideToggle( "500", function() {
+							 // Animation complete.
+							  });
+							 });
+							</script>
+					<ul class=" top-menu12">
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav19" value="" checked="">
+							<label for="nav19"><i></i><b>YES</b>  I will Go</label>
+							</span> </a></li>                                             
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav20" value="" >
+							<label for="nav20"><i></i><b> NO</b>  I Will Not Go</label>
+							</span> </a></li>    
+						<li><a href="#"><span >
+							<input type="checkbox"  id="nav21" value="" >
+							<label for="nav21"><i></i>May be I Will Go</label>
+							</span> </a></li>    
+						<li class="no-menu"><a href="#"><span >
+							<input type="checkbox"  id="nav22" value="" >
+							<label for="nav22"><i></i>Never !</label>
+							</span> </a></li>    
+						
+					</ul>
+					
+				</div>
+				<!---->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	<!--//drop-down-->
+	<!--pagenation-->
+	<div class="pagination">
+			<h3>Paginations </h3>
+			<div class="page-top">
+				<div class="page-top1">
+					<ul class="page-1">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+					<ul class="page-1 page-2">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+				</div>
+				<div class="page-top1">
+					<ul class="page-1 page-3">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+					<ul class="page-1 page-2 page-4">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+				</div>
+				<div class="page-top1">
+					<ul class="page-1 page-5">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+					<ul class="page-1  page-2 page-6">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+				</div>
+				<div class="page-top1">
+					<ul class="page-1 page-7">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+					<ul class="page-1  page-2 page-8">
+						<li><span class="pre"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="page-top-mid">
+				<div class="page-top-mid1">
+					<ul class="page-mid">
+						<li><span class="pre1"><i class="fa fa-arrow-left"></i>PREV</span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top1" href="#">NEXT<i class="fa fa-arrow-right next1"></i></a></li>
+					</ul>
+				</div>
+					<div class="page-top-mid1">
+					<ul class="page-mid1">
+						<li><span class="pre1"><i class="fa fa-arrow-left"></i></span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><b>...</b></li>
+						<li><a class="next-top1" href="#"><i class="fa fa-arrow-right "></i></a></li>
+					</ul>
+				</div>
+				<div class="page-top-mid1">
+					<ul class="page-mid2">
+						<li><span class="pre1"><i class="fa fa-arrow-left"></i>PREV</span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top1" href="#">NEXT<i class="fa fa-arrow-right next1"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="page-top-bottom">
+				<div class="page-bottom1">
+					<ul class="page-bottom-top">
+						<li><span class="pre2"><i class="fa fa-arrow-left"></i></span><small></small></li>
+						<li><a  href="#"><label>1</label></a><small></small></li>
+						<li><a  href="#"><label>2</label></a><small></small></li>
+						<li><a  href="#"><label>3</label></a><small></small></li>
+						<li><a  href="#"><label>4</label></a><small></small></li>
+						<li><a  href="#"><label>5</label></a><small></small></li>
+						<li><a class="next-top2" href="#"><i class="fa fa-arrow-right next1"></i></a></li>
+					</ul>
+				</div>
+				<div class="page-bottom1">
+					<ul class="page-bottom-top1">
+						<li><span class="pre1"><i class="fa fa-arrow-left"></i>PREV</span></li>
+						<li><span >1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a class="next-top1" href="#">NEXT<i class="fa fa-arrow-right next1"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	<!--//pagenation-->
+	<!--tabs-->
+	<div class="tab">
+			<h3>Tabs </h3>
+			<div class="tab-top">
+				<div class="tab-top1">
+					<ul class="top-tab">
+			        	<li class="current"><a href="#" >Cats</a></li>		        	
+			        	<li ><a href="#" > Dogs</a></li>
+						<li ><a href="#" >Birds</a></li>
+			        	<li><a href="#" >Reptiles</a></li>
+			        	
+			        </ul>
+				
+				</div>
+					<div class="tab-top1">
+					<ul class="top-tab top-tab1">
+			        	<li class="current"><a href="#" >Cats</a></li>		        	
+			        	<li ><a href="#" > Dogs</a></li>
+						<li ><a href="#" >Birds</a></li>
+			        	<li><a href="#" >Reptiles</a></li>
+			        	
+			        </ul>
+				
+				</div>
+				
+<div class="clearfix"> </div>
+			</div>
+			<div class="tab-top-top">
+				<div class="tab-top1">
+					<ul class="top-tab2">
+			        	<li class="current"><a href="#" >Cats</a></li>		        	
+			        	<li ><a href="#" > Dogs</a></li>
+						<li ><a href="#" >Birds</a></li>
+			        	<li><a href="#" >Reptiles</a></li>
+			        	<div class="clearfix"> </div>
+			        </ul>
+				
+				</div>
+					<div class="tab-top1">
+					<ul class="top-tab2 top-tab3">
+			        	<li class="current"><a href="#" >Cats</a></li>		        	
+			        	<li ><a href="#" > Dogs</a></li>
+						<li ><a href="#" >Birds</a></li>
+			        	<li><a href="#" >Reptiles</a></li>
+			        	<div class="clearfix"> </div>
+			        </ul>
+				
+				</div>
+				
+<div class="clearfix"> </div>
+			</div>
+		</div>
+	<!--//tabs-->
+	<!--//head-->
+	<!--input-->
+	<div class="input-field">
+		<h3>Input <span>Field</span></h3>
+		<div class="input-top">
+			<div class="input-top-top">
+				<div class="input-top-mid">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid1">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid2">
+					<i class="fa fa-check"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid3">
+					<i class="fa fa-close"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid4">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid5">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="input-top-top">
+				<div class="input-top-mid input-top-mid6">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid7">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid input-top-mid6">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+					<div class="tick2"><span class="fa fa-check"></span> </div>
+				</div>
+				<div class="input-top-mid input-top-mid6 input-top-mid20">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+					 <div class="close2"><span class="fa fa-close"></span> </div>
+				</div>
+				
+				 <script>$(document).ready(function(c) {
+							$('.close2').on('click', function(c){
+								$('.input-top-mid20').fadeOut('slow', function(c){
+									$('.input-top-mid20').remove();
+								});
+								});	  
+							});
+			  		 </script>
+				<div class="input-top-mid input-top-mid10">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+					<div class="tick1"><i class="fa fa-check"></i> </div>
+				</div>
+				<div class="input-top-mid input-top-mid11">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+					 
+				 <div class="close1"><i class="fa fa-close"></i> </div>
+				</div>
+				 <script>$(document).ready(function(c) {
+							$('.close1').on('click', function(c){
+								$('.input-top-mid11').fadeOut('slow', function(c){
+									$('.input-top-mid11').remove();
+								});
+								});	  
+							});
+			  		 </script>
+				<div class="input-top-mid12 ">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="input-top-top">
+				<div class="input-top-mid13">
+					<span>Your Name</span>
+					<input type="text" placeholder="" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid13 input-top-mid14">
+					<span>Your Name</span>
+					<input type="text" placeholder="" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid13 input-top-mid15">
+					<span>Your Name</span>
+					<input type="text" placeholder="" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid13 input-top-mid16">
+					<span>Your Name</span>
+					<input type="text" placeholder="" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid13 input-top-mid17">
+					<span>Your Name</span>
+					<input type="text" placeholder="" required="">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="input-top-mid13 input-top-mid18">
+					<span>Your Name</span>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+					 <div class="tick"><i class="fa fa-check"></i> </div>
+				</div>	
+				<div class="input-top-mid13 input-top-mid19">
+					<span>Your Name</span>
+					<input type="text" placeholder="Your Name" required="">
+					<div class="clearfix"> </div>
+			  		 <div class="close"><i class="fa fa-close"></i> </div>
+				</div>
+				 <script>$(document).ready(function(c) {
+							$('.close').on('click', function(c){
+								$('.input-top-mid19').fadeOut('slow', function(c){
+									$('.input-top-mid19').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+		<div class="date-picker">
+			<h3>Date <span>  Picker</span></h3>
+			<div class="date-picker-top">
+				<div class="date-picker-date">
+					<div class="date-picker1">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+					<div class="date-picker1 date-picker2">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+					<div class="date-picker1 date-picker3">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+				</div>
+				<div class="date-picker-date">
+					<div class="date-picker1 date-picker4">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+					<div class="date-picker1 date-picker5">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+					<div class="date-picker1 date-picker6">
+						<ul>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+					</ul>
+					
+					</div>
+				</div>
+				<div class="date-picker-date">
+					<div class="date-picker7 ">
+						<ul>
+							<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<div class="clearfix"> </div>
+					</ul>
+					
+					</div>
+					<div class="date-picker7 date-picker8">
+						<ul>
+							<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<div class="clearfix"> </div>
+					</ul>
+					
+					</div>
+					<div class="date-picker7 date-picker9">
+						<ul>
+							<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<div class="clearfix"> </div>
+					</ul>
+					
+					</div>
+					<div class="date-picker7 date-picker10">
+						<ul>
+							<li><a href="#"><i class="fa fa-calendar-o"></i></a></li>
+							<li>
+							<select class="drop-date">
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select class="drop-date">
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+						<div class="clearfix"> </div>
+					</ul>
+					
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+		<div class="date-small">
+			<h3>Date <span> Picker (Small)</span></h3>
+			<div class="date-small-top">
+				<div class="date-small-date">
+					<div class="date-small1">
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+				<div class="date-small1 date-small2">
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+				<div class="date-small1 date-small3" >
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+			</div>
+			<div class="date-small-date">
+					<div class="date-small1 date-small4">
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+			</div>
+			<div class="date-small-date">
+					<div class="date-small1 date-small5">
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+			</div>
+			<div class="date-small-date">
+					<div class="date-small1 date-small6">
+						<ul>
+							<li>
+							<select >
+							<option>09</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+							<option>06</option>
+							<option>07</option>
+							<option>08</option>
+						</select></li>
+						<li>
+						<select >
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+						</select></li>
+						<li>
+						<select >
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+
+						</select></li>
+					
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+	</div>
+	</div>
+	<!--input-->
+	<!--progress-bar-->
+	<div class="progress">
+		<h3>Progress <span>Bars</span></h3>
+		<div class="progree-bar">
+			<div class="progree-bar1 ">
+				<span> </span>
+				<label>80%</label>
+			</div>
+			<div class="progree-bar1 progree-bar2">
+				<span> </span>
+				<label>60%</label>
+			</div>
+			<div class="progree-bar1 progree-bar3">
+				<span> </span>
+				<label>40%</label>
+			</div>
+			<div class="progree-bar1 progree-bar4">
+				<span> </span>
+				<label>40%</label>
+			</div>
+		</div>
+		<div class="progree-bar-1">
+			<div class="progree-bar-bar ">
+				<span> </span>
+			</div>
+			<div class="progree-bar-bar progree-bar-bar1 ">
+				<span> </span>
+			</div>
+			<div class="progree-bar-bar progree-bar-bar2">
+				<span> </span>
+			</div>
+			<div class="progree-bar-bar progree-bar-bar3">
+				<span> </span>
+			</div>
+		</div>
+		<!---->
+		<div class="upload">
+			<div class="upload-top">
+				<h3>Progress Bar <span>Small</span></h3>
+				<div class="bar-small">
+					<div class="progree-bar-bar up-top">
+						<span> </span>
+					</div>
+					<div class="progree-bar-bar progree-bar-bar1 up-top">
+						<span> </span>
+					</div>
+					<div class="progree-bar-bar progree-bar-bar2 up-top">
+						<span> </span>
+					</div>
+					<div class="progree-bar-bar progree-bar-bar3 up-top">
+						<span> </span>
+					</div>
+				</div>
+			</div>
+			<div class="upload-top1">
+				<h3>Uploading..</h3>
+				<div class="bar-small1">
+					<div class="uploading">
+						<div class="uploading-top">
+							<span> </span>
+							<label>30% of 300MB</label>
+						</div>
+					</div>
+					<div class="uploading1">
+						<div class="uploading-top1">
+							<span> Rio.mov<i class="fa fa-check-circle"></i></span>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+		<div class="rounded">
+			<h3> Progress Bar <span>Rounded</span></h3>
+			<div class="roun-round">
+				<div class="rounded1">
+					<div class="every" id="circles-1"> </div>									
+				</div>		
+				<div class="rounded1">
+					<div class="every" id="circles-2"> </div>									
+				</div>		
+				<div class="rounded1">
+					<div class="every" id="circles-3"> </div>									
+				</div>		
+				<div class="rounded1">
+					<div class="every" id="circles-4"> </div>									
+				</div>								  
+				<div class="clearfix"> </div>
+			</div>
+		</div>	   
+				<!---->
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#eaecec', '#ee4332'], ['#eaecec', '#ffd915'], ['#eaecec', '#3591cf'], ['#eaecec', '#2fc26e']
+									];
+								for (var i = 1; i <= 4; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 40 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     115,
+										width:      30,
+										number:   	percentage / 10,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+				<!--/-->
+				<!---->
+		<div class="widget">
+			<h3><span>Progress </span> Widget</h3>
+			<div class="widget1">
+				<div class="widget2">
+					<h4>Work  Progress</h4>
+					<div class="wid1">
+						<div class="wid2">
+							<img src="images/wr.png" alt="">
+						</div>
+						<div class="wid3">
+							<h6>John </h6>
+							 <form id="opts">
+								<input type="text" name="lines" min="5" max="16" step="2" value="12">
+						 	 </form>
+								<div class="scrolling">
+								 <div id="slider-at"></div>
+									<script>
+									$("#slider-at").noUiSlider({
+										start: [20, 80],
+										connect: true,
+										range: {
+											'min': 0,
+											'max': 100
+										}
+									});
+									</script>
+								</div>
+							
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="wid1">
+						<div class="wid2">
+							<img src="images/wr1.png" alt="">
+						</div>
+						<div class="wid3">
+							<h6>David </h6>
+							 <form >
+							<input type="text" name="length" min="0" max="40" value="20">
+						 	 </form>
+								<div class="scrolling">
+								 <div id="slider-at1"></div>
+									<script>
+									$("#slider-at1").noUiSlider({
+										start: [30, 70],
+										connect: true,
+										range: {
+											'min': 0,
+											'max': 100
+										}
+									});
+									</script>
+								</div>
+							
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="wid1">
+						<div class="wid2">
+							<img src="images/wr2.png" alt="">
+						</div>
+						<div class="wid3">
+							<h6>Prechu </h6>
+							 <form >
+								<input type="text" name="length" min="0" max="30" value="10">
+						 	 </form>
+								<div class="scrolling">
+								 <div id="slider-at2"></div>
+									<script>
+									$("#slider-at2").noUiSlider({
+										start: [40, 60],
+										connect: true,
+										range: {
+											'min': 0,
+											'max': 100
+										}
+									});
+									</script>
+								</div>
+							
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="wid1">
+						<div class="wid2">
+							<img src="images/wr3.png" alt="">
+						</div>
+						<div class="wid3">
+							<h6>Sajan </h6>
+							 <form >
+								<input type="text" name="length" min="0" max="40" value="10">
+						 	 </form>
+								<div class="scrolling">
+								 <div id="slider-at3"></div>
+									<script>
+									$("#slider-at3").noUiSlider({
+										start: [50, 50],
+										connect: true,
+										range: {
+											'min': 0,
+											'max': 100
+										}
+									});
+									</script>
+								</div>
+							
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+				<div class="widget3">
+					<div class="your-file">
+						<h4>Upload Your Files <i class="fa fa-upload"></i></h4>
+					</div>
+					<div class="your-file1 your-file2">
+						<i class="fa fa-picture-o"></i>
+						<p>digital-dreams.jpg</p>
+						<div class="pro-file">
+							<div class="pro-file1">
+								<span> </span>
+							</div>
+							<small>180MB</small>
+						</div>
+						<label>200MB</label>
+						<div class="close3"><i class="fa fa-times-circle"></i> </div>
+
+				 <script>$(document).ready(function(c) {
+							$('.close3').on('click', function(c){
+								$('.your-file2').fadeOut('slow', function(c){
+									$('.your-file2').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			  		 <div class="clearfix"> </div>
+					</div>
+					<div class="your-file1 your-file3">
+						<i class="fa fa-expand"></i>
+						<p>Tour Photos.zip</p>
+						<div class="pro-file pro-file2">
+							<div class="pro-file1">
+								<span> </span>
+							</div>
+							<small>120MB</small>
+						</div>
+						<label>70MB</label>
+						<div class=" close4"><i class="fa fa-times-circle"></i> </div>
+				 		<script>$(document).ready(function(c) {
+							$('.close4').on('click', function(c){
+								$('.your-file3').fadeOut('slow', function(c){
+									$('.your-file3').remove();
+								});
+								});	  
+							});
+			  			 </script>
+			  		 <div class="clearfix"> </div>
+					</div>
+					<div class="your-file1 your-file4">
+						<i  class="fa fa-music"></i>
+						<p>digital-dreams.mp3</p>
+						<div class="pro-file pro-file3">
+							<div class="pro-file1">
+								<span> </span>
+							</div>
+							<small>30MB</small>
+						</div>
+						<label>360MB</label>
+						<div class=" close5"><i class="fa fa-times-circle"></i> </div>
+				 <script>$(document).ready(function(c) {
+							$('.close5').on('click', function(c){
+								$('.your-file4').fadeOut('slow', function(c){
+									$('.your-file4').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			  		 <div class="clearfix"> </div>
+					</div>
+					<div class="up-cross">
+						<p> 2 of 5 Uploaded</p>
+						<ul>
+							<li class="up-cross1"><span class="fa fa-expand"></span><label>digital-dreams.zip</label><i class="fa fa-times-circle cross"></i></li>
+							<li class="up-cross2"><span  class="fa fa-music"></span><label>Enigma.mp3</label><i class="fa fa-times-circle cross1"></i></li>
+						</ul>
+						<script>$(document).ready(function(c) {
+							$('.cross').on('click', function(c){
+								$('.up-cross1').fadeOut('slow', function(c){
+									$('.up-cross1').remove();
+								});
+								});	  
+							});
+			  		 </script>
+			  		 <script>$(document).ready(function(c) {
+							$('.cross1').on('click', function(c){
+								$('.up-cross2').fadeOut('slow', function(c){
+									$('.up-cross2').remove();
+								});
+								});	  
+							});
+			  		 </script>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!---->
+		<div class="usage">
+			<h3>Disc Pace <span> Usage</span></h3>
+			<div class="usage-top">
+				<div class="usage-top1 usage-top4">
+					<div class="usage-top-at">
+					<h4>Disc Space Used<i class="fa fa-question-circle"></i></h4>
+					<i class="fa fa-smile-o"></i>
+					<h5>770 GB Left</h5>
+					<div class="usage-top-top ">
+						<span> 30%</span>
+					</div>
+					<p>230 GB of 1TB</p>
+					<i class="fa fa-times-circle-o roun-close"></i>
+					 <script>$(document).ready(function(c) {
+							$('.roun-close').on('click', function(c){
+								$('.usage-top4').fadeOut('slow', function(c){
+									$('.usage-top4').remove();
+								});
+								});	  
+							});
+			  		 </script>
+				</div>
+			</div>
+				<div class="usage-top1 usage-top2">
+					<div class="usage-top-at">
+					<h4>Disc Space Used<i class="fa fa-question-circle"></i></h4>
+					<i class="fa fa-smile-o"></i>
+					<h5>350 GB Left</h5>
+					<div class="usage-top-top usage-top-top1">
+						<span> 70%</span>
+					</div>
+					<p>230 GB of 1TB</p>
+					<i class="fa fa-times-circle-o  roun-close1"></i>
+					 <script>$(document).ready(function(c) {
+							$('.roun-close1').on('click', function(c){
+								$('.usage-top2').fadeOut('slow', function(c){
+									$('.usage-top2').remove();
+								});
+								});	  
+							});
+			  		 </script>
+				</div>
+			</div>
+				<div class="usage-top1 usage-top3">
+					<div class="usage-top-at">
+					<h4>Disc Space Used<i class="fa fa-question-circle"></i></h4>
+					<i class="fa fa-smile-o"></i>
+					<h5>80 GB Left</h5>
+					<div class="usage-top-top usage-top-top2">
+						<span> 90%</span>
+					</div>
+					<p>230 GB of 1TB</p>
+					<i class="fa fa-times-circle-o roun-close2"></i>
+					 <script>$(document).ready(function(c) {
+							$('.roun-close2').on('click', function(c){
+								$('.usage-top3').fadeOut('slow', function(c){
+									$('.usage-top3').remove();
+								});
+								});	  
+							});
+			  		 </script>
+				</div>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!---->
+		
+	</div>
+	<!--//progress-bar-->
+	<!--blog-->
+	<div class="blog">
+		<h3>BLog <span>Posts(Grid)</span></h3>
+		<div class="blog-top">
+			<div class="blog-grid">
+				<a href="#"><img src="images/bl.jpg" alt=""></a>
+				<i class="fa fa-video-camera"></i>
+				<div class="blog-grid1">
+					<ul class="post">
+						<li><a href="#"><i class="par"></i> Tiago</a></li><label>|</label>
+						<li><span>Posted  <b>April 25</b></span></li><label>|</label>
+						<li><a href="#"><i class="fa fa-comments-o"></i> 30 Comments </a></li>
+					</ul>
+					<h5><a href="#"> This is Photoshop's version  of Lorem Ipsum. Proin gravida.</a></h5>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit
+						 auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+					<div class="blog-ic">
+						<ul class="social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<div class="clearfix"> </div>
+						</ul>
+						<a class="blog-read" href="#">Read More </a>
+						<div class="clearfix"> </div>
+					</div>
+				</div>	
+			</div>
+			
+			<div class="blog-grid">
+				<a href="#"><img src="images/bl1.jpg" alt=""></a>
+				<i class="fa fa-picture-o "></i>	
+				<div class="blog-grid1">
+					<ul class="post">
+						<li><a href="#"><i class="par"></i> Tiago</a></li><label>|</label>
+						<li><span>Posted  <b>April 25</b></span></li><label>|</label>
+						<li><a href="#"><i class="fa fa-comments-o"></i> 30 Comments </a></li>
+					</ul>
+					<h5><a href="#">This is Photoshop's version  of Lorem Ipsum. Proin gravida.</a></h5>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit
+						 auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+					<div class="blog-ic">
+						<ul class="blog-star">
+							<h6>Rating :</h6>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+							<div class="clearfix"> </div>
+						</ul>
+						<a class="blog-read blog-read1" href="#">Read More </a>
+						<div class="clearfix"> </div>
+					</div>
+				</div>	
+			</div>
+			<div class="blog-grid">
+				<a href="#"><img src="images/bl2.jpg" alt=""></a>
+				<i class="fa fa-video-camera camera1"></i>		
+				<div class="blog-grid1">
+					<ul class="post">
+						<li><a href="#"><i class="par"></i> Tiago</a></li><label>|</label>
+						<li><span>Posted  <b>April 25</b></span></li><label>|</label>
+						<li><a href="#"><i class="fa fa-comments-o"></i> 30 Comments </a></li>
+					</ul>
+					<h5><a href="#">This is Photoshop's version  of Lorem Ipsum. Proin gravida.</a></h5>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit
+						 auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+					<div class="blog-ic">
+						<ul class="social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<div class="clearfix"> </div>
+						</ul>
+						<a class="blog-read blog-read2" href="#">Read More </a>
+						<div class="clearfix"> </div>
+					</div>
+				</div>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+		<div class="blog-top1">
+			<div class="blog-top2">
+				<h3>BLog <span>Posts(Normal)</span></h3>
+				<div class="blog-single">
+					<a href="#"><img src="images/bs.jpg" alt=""></a>
+					<div class="blog-date ">
+						<span>April</span>
+						<b>26</b>
+					</div>
+					<h4><a href="#">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</a></h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+					<a class="blog-more " href="#">More <i class="fa fa-caret-right"></i></a>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="blog-single">
+					<a href="#"><img src="images/bs1.jpg" alt="">
+					<div class="blog-date blog-date1">
+						<span>April</span>
+						<b>26</b>
+					</div>
+					<h4><a href="#">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</a></h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+					<a class="blog-more blog-more1" href="#">More <i class="fa fa-caret-right"></i></a>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="blog-single">
+					<a href="#"><img src="images/bs2.jpg" alt=""></a>
+					<div class="blog-date blog-date2">
+						<span>April</span>
+						<b>26</b>
+					</div>
+					<h4><a href="#">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</a></h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+					<a class="blog-more blog-more2" href="#">More <i class="fa fa-caret-right"></i></a>
+					<div class="clearfix"> </div>
+				</div>
+				<!---->
+				<div class="blog-comment">
+					<h3>BLog <span> COmment System</span></h3>
+					<h6><i class="fa fa-comments-o"></i> Comments</h6>
+					<div class="comment">
+						<form>
+							<div class="comment-your">
+								<span>Your Name</span>
+								<input type="text" placeholder="" required="">
+							</div>
+							<div class="comment-your">
+								<span>Your Name</span>
+								<input type="text" placeholder="" required="">
+							</div>
+							<div class="clearfix"> </div>
+							<div class="your-message">
+								<span>Your Message</span>
+								<textarea placeholder="" required=""></textarea>
+							</div>
+							<div class="comment-sub">
+								<div class="comment-check">
+								<span>
+									<input type="checkbox" id="sub" value="" checked="">
+									<label for="sub"><i></i>Notify Once Approved</label>
+								</span>
+								</div>
+								<input type="submit" value="">
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+						</form>
+					</div>
+				</div>
+				<!---->
+				<div class="blog-comment1">
+					<div class="comment-top">
+						<img src="images/co.png" alt="">
+					</div>
+					<div class="comment-top1">
+						<div class="top-comment-right">
+							<div class="right-comment">
+								<h5>Carl <span>   2 Days Ago</span> <label>|</label> <span><i class="fa fa-share"></i>  2  Replys</span></h5>
+								<h6><i class="fa fa-heart"></i> <b>5</b></h6>
+								<div class="clearfix"> </div>
+							</div>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<a class="reply" href="#"><i class="fa fa-share-square"></i></a>
+							<div class="clearfix"> </div>
+						</div>
+						
+						<div class="top-comment-right">
+							<div class="right-comment right-comment1">
+								<div class="com-img"> 
+									<div class="com-img1">
+										<img src="images/bo.png" alt="">
+										<h4>Dug</h4>
+									</div>
+									<div class="com-img2">
+										<span>....</span>
+										<img src="images/bo1.png" alt="">
+										<em>   Yesterday</em>
+									</div>
+									<div class="clearfix"> </div>
+									</div>
+								<h6><i class="fa fa-heart-o"></i> <b>5</b></h6>
+								<div class="clearfix"> </div>
+							</div>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<a class="reply" href="#"><i class="fa fa-share-square"></i></a>
+							<div class="clearfix"> </div>
+						</div>
+							<div class="top-comment-right">
+							<div class="right-comment right-comment1">
+								<div class="com-img"> 
+									<div class="com-img1">
+										<img src="images/bo4.png" alt="">
+										<h4>Elle</h4>
+									</div>
+									<div class="com-img2">
+										<span>....</span>
+										<img src="images/bo3.png" alt="">
+										<img src="images/bo2.png" alt="">
+										<em>      5 Hours  Ago</em>
+									</div>
+									<div class="clearfix"> </div>
+									</div>
+								<h6><i class="fa fa-heart-o"></i> <b>5</b></h6>
+								<div class="clearfix"> </div>
+							</div>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<a class="reply" href="#"><i class="fa fa-share-square"></i></a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---->
+			</div>
+			<div class="blog-top3">
+				<h3>BLog <span> WIdgets</span></h3>
+				<div class="blog-search">
+					<h5>Search Bars </h5>
+					<div class="search1">
+							<form>
+						  	     <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+					</div>
+					<div class="search1 search2">
+							<form>
+						  	     <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+					</div>
+					<div class="search1 search3">
+							<form>
+						  	     <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+					</div>
+					<div class="search1 search4">
+							<form>
+						  	     <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+					</div>
+				</div>
+				<!---->
+				<div class="single-social">
+					<h5>Social Media</h5>
+					<div class="media-social">
+						<h6>Follow Us</h6>
+						<ul class="media-social1">
+							<li><a href="#"><i class="fa fb fa-facebook"></i><span>835</span></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i><span>1.3k</span></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i><span>1.5k</span></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i><span>1.8k</span></a></li>
+						</ul>
+						<h6>Follow Us</h6>
+						<ul class="media-social2">
+							<li ><a class="ic" href="#"><i class="fa fb fa-facebook"></i><span>835</span></a></li>
+							<li ><a class="ic1" href="#"><i class="fa fa-twitter"></i><span>1.3k</span></a></li>
+							<li ><a class="ic2" href="#"><i class="fa fa-google-plus"></i><span>1.5k</span></a></li>
+							<li ><a class="ic3" href="#"><i class="fa fa-pinterest"></i><span>1.8k</span></a></li>
+						</ul>
+						<h6>Follow Us</h6>
+						<ul class="media-social3">
+							<li ><a class="icon" href="#"><i class="fa fb fa-facebook"></i><span>1.5k</span></a></li>
+							<li ><a class="icon1" href="#"><i class="fa fa-twitter"></i><span>300</span></a></li>
+							<li ><a class="icon2" href="#"><i class="fa fa-google-plus"></i><span>1.5k</span></a></li>
+							<li ><a class="icon3" href="#"><i class="fa fa-pinterest"></i><span>545</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!---->
+				  
+			    <!----- tabs-box ---->
+		<div class="sap_tabs">
+			<h5>Popular & Recent Widget</h5>	
+				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>POPULAR</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>RECENT</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>COMMENTS</span></li>
+							  <div class="clearfix"></div>
+						  </ul>				  	 
+							<div class="resp-tabs-container">
+							    <h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>POPULAR</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+									<div class="facts">									
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta1.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta2.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta3.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+							        </div>
+							    	</div>
+							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>RECENT</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="facts">									
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta3.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta2.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta1.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+							        </div>	
+								</div>									
+							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>COMMENTS</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+									<div class="facts">									
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta2.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta3.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="men">
+											<div class="grid-men">
+												<img src="images/ta1.jpg"  alt="">
+											</div>
+											<div class="men-grid">
+												<p>Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.</p>
+												<span>1 Day Ago</span>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+							        </div>
+							 </div>
+					      </div>
+					 </div>
+					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+			   </script>	
+			</div>
+			<!---->
+				<div class="subscribe">
+					<h5>Subscribe Widget</h5>
+					<h6><i class="fa fa-envelope"></i>Never Miss Again</h6>
+					<span>Keep Up to date !</span>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+					<div class="subscribe-form">
+							<form>
+						  	     <input type="text" value="Enter your E- Mail Adress" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your E- Mail Adress';}">
+						  	     <input type="submit" value="Subscribe">
+						  	     <div class="clearfix"> </div>
+						  	  </form>
+					</div>
+				</div>
+			<!---->
+			<div class="tag">
+				<h5>Tags</h5>
+				<h6>Tags</h6>
+				<div class="tag-top">
+					<ul>
+						<li><a href="#" class="hvr-curl-top-right">UI/UX</a></li>
+						<li><a href="#" class="hvr-curl-top-right inter">Web</a></li>
+						<li><a href="#" class="hvr-curl-top-right inter1">User Interface Design</a></li>
+						<li><a href="#" class="hvr-curl-top-right inter2">inspiration</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				
+			</div>
+			<!---->
+			<div class="archive ">
+				<h5>Archive Widget</h5>
+				<div class="archive-top">
+					<div class="archive-top1">
+						<h6>Archive<span> 2015</span>  </h6>
+					</div>
+					<div class="archive-top2">
+						<div class="top-archive">
+							<ul>
+								<li><span>January</span><label> </label></li>
+								<li><span>February</span><label> </label></li>
+								<li><span>March</span><label> </label></li>
+								<li><span>April</span><label> </label></li>
+								<li><span>May</span><label> </label></li>
+								
+							</ul>
+						</div>
+						<div class="top-archive1">
+							<ul>
+								<li><span>25</span></li>
+								<li><span>80</span></li>
+								<li><span>43</span></li>
+								<li><span>15</span></li>
+								<li><span>18</span></li>
+								
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!---->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+	</div>
+	<!--//blog-->
+	
+</div>
+<!--navigation-->
+	<div class="navigation">
+		<div class="container">
+			<h3>Dashboard <span>Menu</span></h3>
+			<div class="navigation-1">
+				<div class="nav-left">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right">
+					<span class="nav-list-it1"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it1" ).click(function() {
+							  $( "ul.nav-top-list-it1" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-top-list nav-top-list-it1">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="navigation-1 navigation-2">
+				<div class="nav-left nav-left-1">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right">
+					<span class="nav-list-it2"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it2" ).click(function() {
+							  $( "ul.nav-top-list-it2" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-top-list nav-top-list-it2">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<!---->
+			<div class="navigation-1 navigation-3">
+				<div class="nav-left nav-left-2">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right-top">
+					<div class="nav-right-top-top">
+					<span class="nav-list-it3"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it3" ).click(function() {
+							  $( "ul.nav-top-list-it3" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-list nav-top-list-it3">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+					</div>
+					<div class="search-nav">
+						<form>
+							<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+							<input type="submit" value="">
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="navigation-1 navigation-4">
+				<div class="nav-left nav-left-3">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right-top nav-right-top1">
+					<div class="nav-right-top-is">
+					<span class="nav-list-it4"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it4" ).click(function() {
+							  $( "ul.nav-list1" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-list nav-list1">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+					</div>
+					<div class="search-in" >
+			<div class="search-down" >
+				<form >
+					<input type="text"  class="text">
+					<input type="submit" value="SEARCH">
+				</form>
+				<div class="close-in"><i class="fa fa-times"></i></div>
+			</div>
+			<div class="right"><button> </button></div>
+		</div>
+			<script type="text/javascript">
+				$('.search-down').hide();
+				$('button').click(function (){
+				$('.search-down').show();
+				$('.text').focus();
+				}
+				);
+				$('.close-in').click(function(){
+				$('.search-down').hide();
+				});
+			</script>
+		
+
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	
+			<!---->
+			<div class="navigation-1 navigation-5">
+				<div class="nav-left">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right">
+					<span class="nav-list-it5"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it5" ).click(function() {
+							  $( "ul.nav-top-list1" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-top-list nav-top-list1">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="navigation-1 navigation-6">
+				<div class="nav-left nav-left-1">
+					<h4><a href="#">o <span>ui kit</span></a></h4>
+				</div>
+				<div class="nav-right">
+					<span class="nav-list-it6"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it6" ).click(function() {
+							  $( "ul.nav-top-list2" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="nav-top-list nav-top-list2">
+						<li><a class="active" href="#"><i class="fa fa-home"></i>Home</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-flag"></i>About</a><label>|</label></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="nav-explore">
+				<div class="nav-explore-1">
+					<a href="#"><i class="fa fa-rocket"></i></a>
+				</div>
+				<div class="nav-explore-2">
+					<a class="expo" href="#">explore...</a>
+					<a class="log-nav" href="#">Login</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<!---->
+			<div class="nav-explore nav-explore1">
+				<div class="nav-explore-1">
+					<a href="#"><i class="fa fa-rocket"></i></a>
+				</div>
+				<div class="nav-explore-3">
+					<a class="expo expo1" href="#">explore...</a>
+					<div class="log-nav1" >
+						<div class="log-img">
+							<img src="images/na.png" alt="">
+							<span>8</span>
+						</div>
+						<select>
+								<option value="">Lorem</option>
+								<option value="">Lorem</option>
+								<option value="">Lorem</option>
+								<option value="">Lorem</option>
+						</select>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+		</div>
+		<!---->
+		
+		<div class="full-navigation">
+			<div class="container">
+				<h3>Full Width  <span> Menu</span></h3>
+			</div>
+			<div class="full-navigation1">
+				<div class="container">
+					<div class="full-navigation-left">
+						<h4><a href="#">Lorem <span>Ipsum</span></a></h4>
+					</div>
+					<div class="full-navigation-right">
+						<div class="full-navigation-right-is">
+						<span class="nav-list-it7"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-list-it7" ).click(function() {
+							  $( "ul.full-navigation-left1" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+						<ul class="full-navigation-left1">
+							
+							<li><a class="active" href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+						</div>
+						<ul class="full-navigation-left2">
+							<li><a  href="#">Login</a></li>
+							<li><a  class="login-left" href="#">Sign Up</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!---->
+			<div class="full-navigation1 full-navigation2">
+				<div class="container">
+				<div class="full-navigation-left full-navigation-left-one">
+					<a href="#"><img src="images/lo.png" alt="" /></a>
+				</div>
+				<div class="full-navigation-right">
+					
+					<ul class=" full-navigation-left3">
+						<li><a class="active" href="#">ABOUT US</a></li>
+						<li><a href="#">CONTACT US</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+					<div class="full-navigation-right2">
+						<span class="nav"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav" ).click(function() {
+							  $( "ul.top-nav" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="top-nav" >
+						<li><a href="#">Home</a></li>                                             
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>  
+					
+					</ul>
+				</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+			<div class="full-navigation3 ">
+				<div class="container">
+				<div class="full-navigation-left full-navigation-left4">
+					<a href="#"><img src="images/lo1.png" alt="" /></a>
+				</div>
+				<div class="full-wrap">
+						<span class="nav-wrap"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-wrap" ).click(function() {
+							  $( "ul.top-nav-wrap" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+						<ul class="top-nav-wrap" >
+							<li><a href="#">Project </a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				
+				<div class="search-gray">
+					<form>
+						<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						<input type="submit" value="">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+			<div class="full-navigation5">
+				<div class="container">
+				<div class="full-nav-left">
+					<a href="#"><img src="images/lo2.png" alt="" /></a>
+				</div>
+				<div class="full-nav-right">
+					<div class="search-gray1">
+					<form>
+						<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						<input type="submit" value="">
+					</form>
+				</div>
+					<div class="full-navigation-nav">
+						<span class="nav1"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav1" ).click(function() {
+							  $( "ul.top-nav1" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="top-nav1" >
+						<li><a href="#">Home</a></li>                                             
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>  
+					
+					</ul>
+				</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+			<div class="full-navigation6">
+				<div class="container">
+					<div class="full-navigation6-social">
+				<ul class="nav-social">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>	
+				</ul>
+				<div class="clearfix"> </div>
+				</div>
+				<div class="full-nav-top-top">
+				<div class="full-nav-left1">
+					<a href="#"><img src="images/lo3.png" alt="" /></a>
+				</div>
+			
+					
+					<div class="full-navigation-nav1">
+					
+						<span class="nav-full"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav-full" ).click(function() {
+							  $( "ul.top-nav2" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					
+					<ul class="top-nav2" >
+						<li><a href="#">Home</a></li>                                             
+						<li><a href="#">Why Us?</a></li>
+						<li><a class="open" href="#"> Open projects<span>10</span></a></li>  
+						<li><a href="#">Blog</a></li>  
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+			<div class="full-navigation7">
+				<div class="container">
+				<div class="full-nav-left2">
+					<a href="#"><img src="images/lo4.png" alt="" /></a>
+				</div>
+				<div class="search-menu">
+					<div class="full-nav-nav">
+						<span class="nav3"><i class="fa fa-bars"></i>
+							 </span>
+						<script>
+							$( "span.nav3" ).click(function() {
+							  $( "ul.top-nav3" ).slideToggle( "slow", function() {
+							    // Animation complete.
+							  });
+							});
+						</script>
+					<ul class="top-nav3" >
+						<li><a href="#">Home</a></li>                                             
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>  
+					
+					</ul>
+				</div>
+					<div class="search-gray3">
+						<form>							
+							<input type="text" value="Search " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search ';}">
+							<input type="submit" value="">
+						</form>
+					</div>
+						<div class="clearfix"> </div>
+				</div>
+				<div class="full-plus">
+					<ul>
+						<li class="full-plus1"><i class="fa fa-plus-square"></i></li>
+						<li class="full-plus2"><i class="fa fa-bell"></i><span> 5</span></li>
+					</ul> 
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+		<!---->
+			<div class="full-navigation8">
+				<div class="container">
+				<div class="filter">
+					<a href="#">FIlters</a>
+				</div>
+				<ul class="filter-top">
+					<li ><span>All(20)</span></li>
+					<li><select>
+							<option>Location</option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+							<option>At vero </option>
+							<option>Sed ut </option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+						</select></li>
+						<li><select>
+							<option>Location</option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+							<option>At vero </option>
+							<option>Sed ut </option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+						</select></li>
+						<li><select>
+							<option>Location</option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+							<option>At vero </option>
+							<option>Sed ut </option>
+							<option>Contrary</option>
+							<option>Ut enim</option>
+						</select></li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---->
+			<div class="full-navigation9">
+				<div class="container">
+					<div class="full-nav-social-top">
+						<div class="full-nav-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+						<div class="full-nav-black">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+							<i class="fa fa-times cross-white"></i>
+							
+						</div>
+						
+				<div class="clearfix"> </div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//navigation-->
+	
+	<!--banner-->
+	<div class="banner">
+		<div class="container">
+		<h3>FIxed Width <span> Banners</span></h3>
+			<div class="banner-top">
+			<div class="banner-matter">
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+				<a href="#">Read More</a>
+			</div>		
+			</div>
+			<div class="banner-top1">
+			  <div class="slider">
+				    <ul class="rslides" id="slider1">
+				      <li>
+				      	<div class="banner-matter1">
+					      	<p>Sed ut perspiciatis unde omnis </p>
+							<h4>Get <span>30 %</span> OFF ON all cycles</h4>
+							<div class="buy">
+								<a href="#">Buy NOW</a>
+								<a class="now" href="#">Take a Tour</a>
+							</div>
+						</div>		
+						</li>
+				      <li>
+				      	<div class="banner-matter1">
+					      	<p>Sed ut perspiciatis unde omnis </p>
+							<h4>Get <span>30 %</span> OFF ON all cycles</h4>
+							<div class="buy">
+								<a href="#">Buy NOW</a>
+								<a class="now" href="#">Take a Tour</a>
+							</div>
+						</div>		
+				      		</li>
+				      <li>
+				      	<div class="banner-matter1">
+					      	<p>Sed ut perspiciatis unde omnis </p>
+							<h4>Get <span>30 %</span> OFF ON all cycles</h4>
+							<div class="buy">
+								<a  href="#">Buy NOW</a>
+								<a class="now"  href="#">Take a Tour</a>
+							</div>
+						</div>	
+				      		</li>
+				    </ul>
+			    </div>
+					
+			</div>
+		</div>
+		<!---->
+		<div class="banner-bottom">
+			<div class="container">
+				<h3>Full Width <span> Banners</span></h3>
+			</div>
+		<div class="banner-top2">
+		
+			  <div class="container">
+			  <div class="slider">
+				    <ul class="rslides" id="slider2">
+				      <li>
+				      	<div class="banner-matter2">
+					      	<h5>NEW IN THIS WEEK</h5>
+							<h4>Lorem ipsum dolor sit  </h4>
+							<p>But I must explain to you how all this mistaken idea</p>
+							<a href="#">Buy NOW</a>	
+						</div>		
+						</li>
+				      <li>
+				      	<div class="banner-matter2">
+					      	<h5>NEW IN THIS WEEK</h5>
+							<h4>Lorem ipsum dolor sit  </h4>
+							<p>But I must explain to you how all this mistaken idea</p>
+							<a href="#">Buy NOW</a>	
+						</div>		
+				      		</li>
+				      <li>
+				      <div class="banner-matter2">
+					      	<h5>NEW IN THIS WEEK</h5>
+							<h4>Lorem ipsum dolor sit  </h4>
+							<p>But I must explain to you how all this mistaken idea</p>
+							<a href="#">Buy NOW</a>	
+						</div>	
+				      		</li>
+				    </ul>
+			    </div>
+		</div>
+		</div>
+		<!---->
+		<div class="banner-top3">
+			<div class="container">
+					<div class="banner-matter3">
+						<h4>think  coffee</h4>
+						<h5>have  coffee!</h5>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+						<a href="#">get it</a>
+					</div>	
+					<div class="clearfix"></div>	
+				</div>
+			</div>
+			<!---->
+			<div class="banner-top4">
+				
+			  <div class="container">
+			  <div class="slider">
+				    <ul class="rslides" id="slider3">
+				      <li>
+				      	<div class="banner-matter4">
+							<i class="fa fa-heart"></i>
+							<h4>With LOve   </h4>
+							<p>Lorem ipsum dolor</p>
+							<a href="#">More</a>	
+						</div>		
+						</li>
+				      <li>
+				      	<div class="banner-matter4">
+							<i class="fa fa-heart"></i>
+							<h4>With LOve   </h4>
+							<p>Lorem ipsum dolor</p>
+							<a href="#">More</a>	
+						</div>	
+				      		</li>
+				      <li>
+				     <div class="banner-matter4">
+							<i class="fa fa-heart"></i>
+							<h4>With LOve   </h4>
+							<p>Lorem ipsum dolor</p>
+							<a href="#">More</a>	
+						</div>	
+				      		</li>
+				    </ul>
+			    </div>
+			</div>
+		</div>
+		
+		<!---->
+			<div class="banner-top5">
+				
+			  <div class="container">
+			  <div class="slider">
+				    <ul class="rslides" id="slider4">
+				      <li>
+				      	<div class="banner-matter5">
+							<h4>Pumpkin <span> soup</span></h4>
+							<a class="play-icon popup-with-zoom-anim" href="#small-dialog5">Watch Video<i class="fa fa-youtube-play"></i></a>
+						</div>		
+						</li>
+				      <li>
+				      	<div class="banner-matter5">
+							<h4>Pumpkin <span> soup</span></h4>
+							<a class="play-icon popup-with-zoom-anim" href="#small-dialog5">Watch Video<i class="fa fa-youtube-play"></i></a>
+						</div>	
+				      		</li>
+				      <li>
+				     <div class="banner-matter5">
+							<h4>Pumpkin <span> soup</span></h4>
+							<a class="play-icon popup-with-zoom-anim" href="#small-dialog5">Watch Video<i class="fa fa-youtube-play"></i></a>
+						</div>	
+				      		</li>
+				    </ul>
+			    </div>
+			    <div class="banner-part">
+				<ul>
+					<li><a href="#"><i class="fa fa-star"></i></a></li>
+					<li><a href="#"><i class="fa fa-star"></i></a></li>
+					<li><a href="#"><i class="fa fa-star"></i></a></li>
+					<li><a href="#"><i class="fa fa-star-half-o"></i></a></li>
+					<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+				</ul>
+				<p>3.5</p>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+			
+		</div>
+		<!---->
+		<!---->
+			<div class="banner-top6">
+			  <div class="container">
+			  <div class="slider">
+				    <ul class="rslides" id="slider5">
+				      <li>
+				      	<div class="banner-matter6">
+							<h4>fULL cOLLECTION <span>50% offer</span></h4>
+							<div class="offer">
+								<p>Cool!, isn’t it ?</p>
+								<a href="#"> BUY NOW</a>
+								<div class="clearfix"> </div>
+							</div>
+						</div>		
+						</li>
+				      <li>
+				      	<div class="banner-matter6">
+							<h4>fULL cOLLECTION <span>50% offer</span></h4>
+							<div class="offer">
+								<p>Cool!, isn’t it ?</p>
+								<a href="#"> BUY NOW</a>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+				      		</li>
+				      <li>
+				    <div class="banner-matter6">
+							<h4>fULL cOLLECTION <span>50% offer</span></h4>
+							<div class="offer">
+								<p>Cool!, isn’t it ?</p>
+								<a href="#"> BUY NOW</a>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+				      		</li>
+				    </ul>
+			    </div>
+			    
+			</div>
+			
+		</div>
+		<!---->
+		<div class="banner-top7">
+			<div class="container">
+					<div class="banner-matter7">
+						<h4>You have to get bad in order to get good</h4>
+						<p>Design is not just what it looks like and feels like. Design is how it works.</p>
+						<div class="search">
+							<form>
+						  	     <input type="text" value="Search Music Here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Music Here';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+						</div>
+					</div>	
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!--video-->
+	<div id="small-dialog5" class="mfp-hide">
+		<iframe src="https://player.vimeo.com/video/133478766?byline=0&portrait=0"   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>	
+	<!--//banner-->
+	<!--profile-->
+	<div class="container">
+		<div class="profile">
+			<h3>Profile <span>& Recent activity</span></h3>
+			<div class="profile-top">
+				<div class="top-profile">
+					<div class="top-profile1">
+						<div class="top-profile-top">
+							<img src="images/prp.png" alt="">
+							<label>20</label>
+						</div>
+						<span>Lorem ipsum</span>
+					</div>
+					<ul class="top-profile2">
+						<li><a href="#"><i class="fa fa-envelope-o"></i>Messages<span>22</span></a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>Comments</a></li>
+						<li><a href="#"><i class="fa fa-th-list"></i>Events<span class="five">5</span></a></li>
+						<li><a href="#"><i class="fa fa-star-o"></i>Events</a></li>
+					</ul>
+				</div>
+				<div class="top-profile-bottom">
+					<div class="top-profile-bottom1">
+						<h5>Recent Activity</h5>
+						<a href="#">Recent Activity</a>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="top-profile-bottom2">
+						<div class="top-profile-bottom-top">
+							<div class="profile-recent">
+								<a href="#"><img src="images/pr1.png" alt=""></a>
+							</div>
+							<div class="profile-recent1">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  </p>
+								<span>10 Day Ago</span>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+						<div class="top-profile-bottom-top">
+							<div class="profile-recent">
+								<a href="#"><img src="images/pr2.png" alt=""></a>
+							</div>
+							<div class="profile-recent1">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  </p>
+								<span>10 Day Ago</span>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+						<div class="top-profile-bottom-top">
+							<div class="profile-recent">
+								<a href="#"><img src="images/pr3.png" alt=""></a>
+							</div>
+							<div class="profile-recent1">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+								<span>10 Day Ago</span>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+						<div class="top-profile-bottom-top">
+							<div class="profile-recent">
+								<a href="#"><img src="images/pr4.png" alt=""></a>
+							</div>
+							<div class="profile-recent1">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  </p>
+								<span>10 Day Ago</span>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="product-box">
+				<h3>Product <span> Box</span></h3>
+				<div class="product-box-top">
+					<div class="product-box1">
+						<div class="product-box-img">
+							<img src="images/bi.jpg" alt="">
+							<h5>Aston Martin </h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+							<div class="product-box-bottom">
+								<ul class="yellow-star">
+									<li><a href="#"><i class="fa fa-star"></i></a></li>
+									<li><a href="#"><i class="fa fa-star"></i></a></li>
+									<li><a href="#"><i class="fa fa-star"></i></a></li>
+									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+								</ul>
+								<a class="box-more" href="#">MORE</a>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				
+					<div class="product-box1">
+						<div class="product-box-img">
+						<img src="images/bi.jpg" alt="">
+						<img class="box-sit" src="images/ne.png" alt="">
+						<h5>Aston Martin </h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+						<div class="product-box-bottom">
+							<ul class="yellow-star">
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+								<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+							</ul>
+							<a class="box-more box-more1" href="#">MORE</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					</div>
+					<div class="product-box1">
+						<div class="product-box-img">
+						<img src="images/bi.jpg" alt="">
+						<img class="box-sit" src="images/ne1.png" alt="">
+						<h5>Aston Martin </h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+						<div class="product-box-bottom">
+							<ul class="yellow-star">
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star"></i></a></li>
+								<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+								<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+							</ul>
+							<a class="box-more box-more2" href="#">MORE</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>		
+			<!---->
+			<div class=" feature-box">
+				<h3>Feature <span> Box</span></h3>
+				<div class="feature-box-top">
+					<div class="feature-box-top1">
+						<div class="feature-box-box">
+							<i class="fa fa-heart"></i>
+							<h5>Easy to Use</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+						</div>
+					</div>
+					<div class="feature-box-top1">
+						<div class="feature-box-box">
+						<i class="fa fa-life-ring fast"></i>
+						<h5>Support</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+					</div>
+					</div>
+					<div class="feature-box-top1">
+						<div class="feature-box-box">
+						<i class="fa fa-share-alt fast1"></i>
+						<h5>Social</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+					</div>
+					</div>
+					<div class="feature-box-top1">
+						<div class="feature-box-box">
+						<i class="fa fa-bolt fast2"></i>
+						<h5>Fast</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+					</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---->
+			<div class=" news-box">
+				<h3>News <span> Box</span></h3>
+				<div class=" news-box-top">
+					<div class=" news-box-top1">
+						<div class=" news-box-box">
+							<span><i></i> Forum</span>
+							<h5>Sed ut perspiciatis unde omnis iste.. </h5>
+							<div class="forum">
+								<p class="for-by">By : <a href="#"> Prechu</a></p>
+								<a class="for-by1" href="#"><i class="fa fa-comments-o"></i>5</a>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class=" news-box-top1 news-box-top2">
+						<div class=" news-box-box">
+							<span><i></i> Blog</span>
+							<h5>Sed ut perspiciatis unde omnis iste.. </h5>
+							<div class="forum">
+								<p class="for-by for-by2">By : <a href="#"> Prechu</a></p>
+								<a class="for-by1 for-by3" href="#"><i class="fa fa-comments-o"></i>5</a>
+								<div class="clearfix"> </div>
+							</div>
+					</div>
+					</div>
+					<div class=" news-box-top1 news-box-top2">
+						<div class=" news-box-box">
+							<span><i></i> Social</span>
+							<h5>Sed ut perspiciatis unde omnis iste.. </h5>
+							<div class="forum">
+								<p class="for-by for-by4">By : <a href="#"> Prechu</a></p>
+								<a class="for-by1 for-by5" href="#"><i class="fa fa-comments-o"></i>5</a>
+								<div class="clearfix"> </div>
+							</div>
+					</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---->
+			<div class="pricing-box">
+				<h3>Pricing</h3>
+				<div class=" pricing-box-top">
+					<div class=" pricing-box-top1">
+						<div class=" pricing-box-box">
+						<h4>BASIC</h4>
+						<h5>$20</h5>
+						<ul>
+							<li><span><b>5 </b>Users</span></li>
+							<li><span><b>Unlimitted </b>Emails</span></li>
+							<li><span><b>5GB </b>File Storage</span></li>
+						</ul>		
+						<a href="#">Buy Now</a>	
+					</div>
+					</div>
+					<div class=" pricing-box-top1 pricing-box-top2">
+						<div class=" pricing-box-box">
+						<h4>PRO</h4>
+						<h5>$20</h5>
+						<ul>
+							<li><span><b>5 </b>Users</span></li>
+							<li><span><b>Unlimitted </b>Emails</span></li>
+							<li><span><b>5GB </b>File Storage</span></li>
+						</ul>		
+						<a href="#">Buy Now</a>	
+					</div>
+					</div>
+					<div class=" pricing-box-top1 pricing-box-top3">
+						<div class=" pricing-box-box">
+						<h4>ADVANCED</h4>
+						<h5>$20</h5>
+						<ul>
+							<li><span><b>5 </b>Users</span></li>
+							<li><span><b>Unlimitted </b>Emails</span></li>
+							<li><span><b>5GB </b>File Storage</span></li>
+						</ul>		
+						<a href="#">Buy Now</a>	
+					</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---->
+			<div class="video">
+				<h3>Media <span>  Player</span></h3>
+				<div class=" video-grid">
+					<div id="jp_container_1" class="jp-video jp-video-360p" role="application" aria-label="media player">
+						<div class="jp-type-single">
+							<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+							<div class="jp-gui">
+								<div class="jp-video-play">
+									<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+								</div>
+								<div class="jp-interface">
+									<div class="jp-progress">
+										<div class="jp-seek-bar">
+											<div class="jp-play-bar"></div>
+										</div>
+									</div>
+									<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+									<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+									<div class="jp-controls-holder">
+										<div class="jp-controls">
+											<button class="jp-play" role="button" tabindex="0">play</button>
+											<button class="jp-stop" role="button" tabindex="0">stop</button>
+										</div>
+										<div class="jp-volume-controls">
+											<button class="jp-mute" role="button" tabindex="0">mute</button>
+											<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+											<div class="jp-volume-bar">
+												<div class="jp-volume-bar-value"></div>
+											</div>
+										</div>
+										<div class="jp-toggles">
+											<button class="jp-repeat" role="button" tabindex="0">repeat</button>
+											<button class="jp-full-screen" role="button" tabindex="0">full screen</button>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+								To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//profile-->
+	<!--chart-->
+	<div class="chart">
+		<div class="container">
+			<h3>Chart App <span>UI</span></h3>
+		</div>
+		<div class="chart-app">
+			<div class="container">
+			<ul class="chart-list">
+				<li><a href="#"><i class="fa fa-smile-o"></i></a></li>
+				<li><a class="list1" href="#"><i class="fa fa-coffee"></i></a></li>
+				<li><a class="list2" href="#"><i class="fa fa-clock-o"></i></a></li>
+			</ul>
+			<div class="chart-top">
+				<div class="chart-top1 chart-one">
+					<div class="i-chart">
+						<h4 class="i-chart-left"><i class="fa fa-comments"></i> i Chat</h4>
+						<ul class="i-chart-right">
+							<li><i class="fa fa-minus"></i></li>
+							<li><i class="fa fa-close close-one"></i></li>
+						</ul>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="se-chart">
+						<div class="se-chart1">
+							<img src="images/ch1.png" alt="">
+						</div>
+						<div class="se-chart2">
+							<h5>Sachin Tendulkar</h5>
+							<p>There is no shortcut to sucses</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="chart-plus">
+						<div class="chart-plus1">
+							<form>
+						  	     <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+						</div>
+						<div class="chart-plus2">
+							<i class="fa fa-plus-square"></i>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="chart-buck">
+						<div class="chart-buck1">
+							<h6>Contacts(10)</h6>
+							<select class="all">
+								<option value="">All</option>
+								<option value="">Lorem</option>
+								<option value="">Lorem</option>
+								<option value="">Lorem</option>
+						</select>
+						<div class="clearfix"> </div>
+						</div>
+						<div class="chart-buck2 active-chart">
+							<ul class="chart-dog chart-dog-active">
+								<li><img src="images/se1.png" alt=""></li>
+								<li><i></i></li>
+								<li><h6>Dug </h6></li>
+								<li><span>23</span></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<div class="call call-active">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-buck2">
+							<ul class="chart-dog">
+								<li><img src="images/se2.png" alt=""></li>
+								<li><i></i></li>
+								<li><h6>Dug </h6></li>
+								
+								<div class="clearfix"> </div>
+							</ul>
+							<div class="call">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-buck2">
+							<ul class="chart-dog">
+								<li><img src="images/se3.png" alt=""></li>
+								<li><i></i></li>
+								<li><h6>Dug </h6></li>
+				
+								<div class="clearfix"> </div>
+							</ul>
+							<div class="call">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-buck2">
+							<ul class="chart-dog">
+								<li><img src="images/se4.png" alt=""></li>
+								<li><i></i></li>
+								<li><h6>Dug </h6></li>
+								
+								<div class="clearfix"> </div>
+							</ul>
+							<div class="call">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="chart-top2">
+					<div class="chart-top3">
+						<div class="dug">
+							<h6>Dug<span></span><span></span><span></span><span></span></h6>
+						</div>
+						<ul class="chart-video">
+							<li><i class="fa fa-video-camera"></i></li>
+							<li><i class="fa fa-headphones"></i></li>
+							<li><i class="fa fa-plus-square-o"></i></li>
+						</ul>
+						<div class="time">
+							<span>11.20 AM</span>
+						</div>
+						<ul class="chart-minus">
+							<li><i class="fa fa-minus"></i></li>
+							<li><i class="fa fa-close close-two"></i></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="chart-top4">
+						<div class="chart-error">
+							<div class="chart-error1">
+								<img src="images/se1.png" alt="">
+							</div>
+							<div class="chart-error2">
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+							</div>
+							<div class="time-chart">
+								<span>10.30 AM</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-error">
+							<div class="chart-error1">
+								<img src="images/se5.png" alt="">
+							</div>
+							<div class="chart-error2 chart-error3">
+								<p>Sed ut perspiciatis unde omnis iste natus  </p>
+							</div>
+							<div class="time-chart time-chart1">
+								<span>10.35 AM</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-error">
+							<div class="chart-error1">
+								<img src="images/se1.png" alt="">
+							</div>
+							<div class="chart-error2 chart-error4">
+								<p>Sed ut perspiciatis unde</p>
+							</div>
+							<div class="time-chart time-chart1">
+								<span>10.30 AM</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-error">
+							<div class="chart-error1">
+								<img src="images/se1.png" alt="">
+							</div>
+							<div class="chart-error2 chart-error5">
+								<p><span> </span>
+								<span> </span>
+								<span> </span>
+								<span> </span></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="chart-text">
+							<form>
+						  	     <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+						  	     <input type="submit" value="">
+						  	  </form>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!--//chart-->
+	<!--calender-->
+	<div class="calender-head">
+		<div class="container">
+			<h3>Calendar  <span>Widgets</span></h3>
+			<div class="calender-top">
+				<div class="calender-top1">
+					<div class="top-cal">
+						<div class="top-cal1">
+						<span class="calender-two">20</span>
+						<div class="top-cal-top">
+							<p>Monday - 9:50 Am</p>
+							<label>Jan/2014</label>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+						<!-- start calender  ---->
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">November 2013</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2013-10-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-28"><div class="day-contents">28</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2013-11-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2013-11-02"><div class="day-contents">2</div></td></tr><tr><td class="day past calendar-day-2013-11-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2013-11-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2013-11-05"><div class="day-contents">5</div></td><td class="day past calendar-day-2013-11-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2013-11-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2013-11-08"><div class="day-contents">8</div></td><td class="day past calendar-day-2013-11-09"><div class="day-contents">9</div></td></tr><tr><td class="day past event calendar-day-2013-11-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2013-11-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2013-11-12"><div class="day-contents">12</div></td><td class="day past event calendar-day-2013-11-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2013-11-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2013-11-15"><div class="day-contents">15</div></td><td class="day past calendar-day-2013-11-16"><div class="day-contents">16</div></td></tr><tr><td class="day past calendar-day-2013-11-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2013-11-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2013-11-19"><div class="day-contents">19</div></td><td class="day past calendar-day-2013-11-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2013-11-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2013-11-22"><div class="day-contents">22</div></td><td class="day today event calendar-day-2013-11-23"><div class="day-contents">23</div></td></tr><tr><td class="day calendar-day-2013-11-24"><div class="day-contents">24</div></td><td class="day calendar-day-2013-11-25"><div class="day-contents">25</div></td><td class="day calendar-day-2013-11-26"><div class="day-contents">26</div></td><td class="day calendar-day-2013-11-27"><div class="day-contents">27</div></td><td class="day calendar-day-2013-11-28"><div class="day-contents">28</div></td><td class="day calendar-day-2013-11-29"><div class="day-contents">29</div></td><td class="day calendar-day-2013-11-30"><div class="day-contents">30</div></td></tr></tbody></table></div></div>
+					</div>
+			<!-- end calender  ---->
+
+					</div>
+					<div class="top-cal2">
+						<div class="cal-to">
+							<div class="cal-need">
+								<span>Today</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+						</div>
+						<div class="cal-pen1">
+							<ul class="cal-pen">
+								<li><a href="#"><i class="fa fa-pencil"></i></a></li>
+								<li><a href="#"><i class="fa fa-plus"></i></a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="calender-top1 calender-top2">
+					<div class="top-cal">
+						<div class="top-cal1 top-cal3">
+						<span class="calender-two">20</span>
+						<div class="top-cal-top">
+							<p>Monday - 9:50 Am</p>
+							<label>Jan/2014</label>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+						<!-- start calender  ---->
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">November 2013</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2013-10-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-28"><div class="day-contents">28</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2013-11-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2013-11-02"><div class="day-contents">2</div></td></tr><tr><td class="day past calendar-day-2013-11-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2013-11-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2013-11-05"><div class="day-contents">5</div></td><td class="day past calendar-day-2013-11-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2013-11-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2013-11-08"><div class="day-contents">8</div></td><td class="day past calendar-day-2013-11-09"><div class="day-contents">9</div></td></tr><tr><td class="day past event calendar-day-2013-11-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2013-11-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2013-11-12"><div class="day-contents">12</div></td><td class="day past event calendar-day-2013-11-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2013-11-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2013-11-15"><div class="day-contents">15</div></td><td class="day past calendar-day-2013-11-16"><div class="day-contents">16</div></td></tr><tr><td class="day past calendar-day-2013-11-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2013-11-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2013-11-19"><div class="day-contents">19</div></td><td class="day past calendar-day-2013-11-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2013-11-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2013-11-22"><div class="day-contents">22</div></td><td class="day today event calendar-day-2013-11-23"><div class="day-contents">23</div></td></tr><tr><td class="day calendar-day-2013-11-24"><div class="day-contents">24</div></td><td class="day calendar-day-2013-11-25"><div class="day-contents">25</div></td><td class="day calendar-day-2013-11-26"><div class="day-contents">26</div></td><td class="day calendar-day-2013-11-27"><div class="day-contents">27</div></td><td class="day calendar-day-2013-11-28"><div class="day-contents">28</div></td><td class="day calendar-day-2013-11-29"><div class="day-contents">29</div></td><td class="day calendar-day-2013-11-30"><div class="day-contents">30</div></td></tr></tbody></table></div></div>
+					</div>
+			<!-- end calender  ---->
+
+					</div>
+					<div class="top-cal2">
+						<div class="cal-to">
+							<div class="cal-need cal-need-top">
+								<span>Today</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+						</div>
+						<div class="cal-pen1">
+							<ul class="cal-pen">
+								<li><a href="#"><i class="fa fa-pencil"></i></a></li>
+								<li><a href="#"><i class="fa fa-plus"></i></a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="calender-top">
+				<div class="calender-top1">
+					<div class="top-cal ">
+						<div class="top-cal1 top-cal4">
+						<span class="calender-two">20</span>
+						<div class="top-cal-top">
+							<p>Monday - 9:50 Am</p>
+							<label>Jan/2014</label>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+						<!-- start calender  ---->
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">November 2013</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2013-10-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-28"><div class="day-contents">28</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2013-11-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2013-11-02"><div class="day-contents">2</div></td></tr><tr><td class="day past calendar-day-2013-11-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2013-11-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2013-11-05"><div class="day-contents">5</div></td><td class="day past calendar-day-2013-11-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2013-11-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2013-11-08"><div class="day-contents">8</div></td><td class="day past calendar-day-2013-11-09"><div class="day-contents">9</div></td></tr><tr><td class="day past event calendar-day-2013-11-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2013-11-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2013-11-12"><div class="day-contents">12</div></td><td class="day past event calendar-day-2013-11-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2013-11-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2013-11-15"><div class="day-contents">15</div></td><td class="day past calendar-day-2013-11-16"><div class="day-contents">16</div></td></tr><tr><td class="day past calendar-day-2013-11-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2013-11-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2013-11-19"><div class="day-contents">19</div></td><td class="day past calendar-day-2013-11-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2013-11-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2013-11-22"><div class="day-contents">22</div></td><td class="day today event calendar-day-2013-11-23"><div class="day-contents">23</div></td></tr><tr><td class="day calendar-day-2013-11-24"><div class="day-contents">24</div></td><td class="day calendar-day-2013-11-25"><div class="day-contents">25</div></td><td class="day calendar-day-2013-11-26"><div class="day-contents">26</div></td><td class="day calendar-day-2013-11-27"><div class="day-contents">27</div></td><td class="day calendar-day-2013-11-28"><div class="day-contents">28</div></td><td class="day calendar-day-2013-11-29"><div class="day-contents">29</div></td><td class="day calendar-day-2013-11-30"><div class="day-contents">30</div></td></tr></tbody></table></div></div>
+					</div>
+			<!-- end calender  ---->
+
+					</div>
+					<div class="top-cal2">
+						<div class="cal-to">
+							<div class="cal-need cal-need-top1">
+								<span>Today</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+						</div>
+						<div class="cal-pen1">
+							<ul class="cal-pen">
+								<li><a href="#"><i class="fa fa-pencil"></i></a></li>
+								<li><a href="#"><i class="fa fa-plus"></i></a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="calender-top1 calender-top2">
+					<div class="top-cal">
+						<div class="top-cal1 top-cal5">
+						<span class="calender-two">20</span>
+						<div class="top-cal-top">
+							<p>Monday - 9:50 Am</p>
+							<label>Jan/2014</label>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+						<!-- start calender  ---->
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">November 2013</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2013-10-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-28"><div class="day-contents">28</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2013-10-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2013-11-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2013-11-02"><div class="day-contents">2</div></td></tr><tr><td class="day past calendar-day-2013-11-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2013-11-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2013-11-05"><div class="day-contents">5</div></td><td class="day past calendar-day-2013-11-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2013-11-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2013-11-08"><div class="day-contents">8</div></td><td class="day past calendar-day-2013-11-09"><div class="day-contents">9</div></td></tr><tr><td class="day past event calendar-day-2013-11-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2013-11-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2013-11-12"><div class="day-contents">12</div></td><td class="day past event calendar-day-2013-11-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2013-11-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2013-11-15"><div class="day-contents">15</div></td><td class="day past calendar-day-2013-11-16"><div class="day-contents">16</div></td></tr><tr><td class="day past calendar-day-2013-11-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2013-11-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2013-11-19"><div class="day-contents">19</div></td><td class="day past calendar-day-2013-11-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2013-11-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2013-11-22"><div class="day-contents">22</div></td><td class="day today event calendar-day-2013-11-23"><div class="day-contents">23</div></td></tr><tr><td class="day calendar-day-2013-11-24"><div class="day-contents">24</div></td><td class="day calendar-day-2013-11-25"><div class="day-contents">25</div></td><td class="day calendar-day-2013-11-26"><div class="day-contents">26</div></td><td class="day calendar-day-2013-11-27"><div class="day-contents">27</div></td><td class="day calendar-day-2013-11-28"><div class="day-contents">28</div></td><td class="day calendar-day-2013-11-29"><div class="day-contents">29</div></td><td class="day calendar-day-2013-11-30"><div class="day-contents">30</div></td></tr></tbody></table></div></div>
+					</div>
+			<!-- end calender  ---->
+
+					</div>
+					<div class="top-cal2">
+						<div class="cal-to">
+							<div class="cal-need cal-need-top2">
+								<span>Today</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+							<div class="cal-need cal-need1">
+								<span>Wed  29  2015</span>
+								<h4>Need to go to Party </h4>
+								<label> </label>
+							</div>
+						</div>
+						<div class="cal-pen1">
+							<ul class="cal-pen">
+								<li><a href="#"><i class="fa fa-pencil"></i></a></li>
+								<li><a href="#"><i class="fa fa-plus"></i></a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="calender-bottom">
+		<h3 class="app">Calender App Design</h3>
+			<div class="custom-calendar-wrap custom-calendar-full">
+				<div class="custom-header">
+
+					<h3 class="custom-month-year">
+						<span id="custom-month" class="custom-month"> </span>
+						<span id="custom-year" class="custom-year"> </span>
+						<nav>
+							<span id="custom-prev" class="custom-prev"> </span>
+							<span id="custom-next" class="custom-next"> </span>
+							<span id="custom-current" class="custom-current" title="Got to current date"></span>
+						</nav>
+						<div class="clearfix"> </div>
+					</h3>
+				</div>
+				<div id="calendar" class="fc-calendar-container"> </div>
+				<div class="clearfix"> </div>
+			
+			</div>
+			<div class="footer">
+	<p> © 2015 Spot Ui Kit. All rights reserved | Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+</div>
+	</div>
+	<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+	<!---//calender-->
+		
+</body>
+</html>
